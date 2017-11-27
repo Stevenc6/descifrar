@@ -5,6 +5,9 @@
 
             Dim openFileDialog1 As New OpenFileDialog()
 
+            txtPass.Text = String.Empty
+            txtIP.Text = String.Empty
+            txtBase.Text = String.Empty
             openFileDialog1.InitialDirectory = "c:\"
             openFileDialog1.Filter = "txt files (*.txt)|*.txt|Todos los archivos (*.*)|*.*"
             openFileDialog1.FilterIndex = 2

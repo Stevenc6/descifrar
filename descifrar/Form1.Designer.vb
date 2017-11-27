@@ -42,7 +42,7 @@ Partial Class Form1
         Me.btnCargarArchivo.Font = New System.Drawing.Font("Century Gothic", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnCargarArchivo.Location = New System.Drawing.Point(12, 80)
         Me.btnCargarArchivo.Name = "btnCargarArchivo"
-        Me.btnCargarArchivo.Size = New System.Drawing.Size(75, 23)
+        Me.btnCargarArchivo.Size = New System.Drawing.Size(75, 29)
         Me.btnCargarArchivo.TabIndex = 1
         Me.btnCargarArchivo.Text = "Cargar"
         Me.btnCargarArchivo.UseVisualStyleBackColor = True
@@ -51,7 +51,7 @@ Partial Class Form1
         '
         Me.txtPass.Enabled = False
         Me.txtPass.Font = New System.Drawing.Font("Century Gothic", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtPass.Location = New System.Drawing.Point(12, 109)
+        Me.txtPass.Location = New System.Drawing.Point(12, 115)
         Me.txtPass.Name = "txtPass"
         Me.txtPass.Size = New System.Drawing.Size(191, 23)
         Me.txtPass.TabIndex = 2
@@ -60,7 +60,7 @@ Partial Class Form1
         '
         Me.txtIP.Enabled = False
         Me.txtIP.Font = New System.Drawing.Font("Century Gothic", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtIP.Location = New System.Drawing.Point(12, 135)
+        Me.txtIP.Location = New System.Drawing.Point(12, 141)
         Me.txtIP.Name = "txtIP"
         Me.txtIP.Size = New System.Drawing.Size(191, 23)
         Me.txtIP.TabIndex = 3
@@ -69,7 +69,7 @@ Partial Class Form1
         '
         Me.txtBase.Enabled = False
         Me.txtBase.Font = New System.Drawing.Font("Century Gothic", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtBase.Location = New System.Drawing.Point(12, 161)
+        Me.txtBase.Location = New System.Drawing.Point(12, 167)
         Me.txtBase.Name = "txtBase"
         Me.txtBase.Size = New System.Drawing.Size(191, 23)
         Me.txtBase.TabIndex = 4
