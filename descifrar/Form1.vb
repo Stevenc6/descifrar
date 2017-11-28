@@ -19,6 +19,7 @@
                 txtPass.Text = conexion.Password
                 txtIP.Text = conexion.Server
                 txtBase.Text = conexion.InitialCatalog
+                txtUser.Text = conexion.UserId
             End If
 
         Catch ex As Exception

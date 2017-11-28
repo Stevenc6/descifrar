@@ -27,6 +27,7 @@ Partial Class Form1
         Me.txtPass = New System.Windows.Forms.TextBox()
         Me.txtIP = New System.Windows.Forms.TextBox()
         Me.txtBase = New System.Windows.Forms.TextBox()
+        Me.txtUser = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
         'Panel1
@@ -49,7 +50,6 @@ Partial Class Form1
         '
         'txtPass
         '
-        Me.txtPass.Enabled = False
         Me.txtPass.Font = New System.Drawing.Font("Century Gothic", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtPass.Location = New System.Drawing.Point(12, 115)
         Me.txtPass.Name = "txtPass"
@@ -58,7 +58,6 @@ Partial Class Form1
         '
         'txtIP
         '
-        Me.txtIP.Enabled = False
         Me.txtIP.Font = New System.Drawing.Font("Century Gothic", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtIP.Location = New System.Drawing.Point(12, 141)
         Me.txtIP.Name = "txtIP"
@@ -67,12 +66,19 @@ Partial Class Form1
         '
         'txtBase
         '
-        Me.txtBase.Enabled = False
         Me.txtBase.Font = New System.Drawing.Font("Century Gothic", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtBase.Location = New System.Drawing.Point(12, 167)
         Me.txtBase.Name = "txtBase"
         Me.txtBase.Size = New System.Drawing.Size(191, 23)
         Me.txtBase.TabIndex = 4
+        '
+        'txtUser
+        '
+        Me.txtUser.Font = New System.Drawing.Font("Century Gothic", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtUser.Location = New System.Drawing.Point(12, 196)
+        Me.txtUser.Name = "txtUser"
+        Me.txtUser.Size = New System.Drawing.Size(191, 23)
+        Me.txtUser.TabIndex = 5
         '
         'Form1
         '
@@ -80,6 +86,7 @@ Partial Class Form1
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(285, 227)
+        Me.Controls.Add(Me.txtUser)
         Me.Controls.Add(Me.txtBase)
         Me.Controls.Add(Me.txtIP)
         Me.Controls.Add(Me.txtPass)
@@ -98,4 +105,5 @@ Partial Class Form1
     Friend WithEvents txtPass As TextBox
     Friend WithEvents txtIP As TextBox
     Friend WithEvents txtBase As TextBox
+    Friend WithEvents txtUser As TextBox
 End Class
